@@ -7,8 +7,13 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      'components': path.resolve(__dirname, './src/components'),
       'contexts': path.resolve(__dirname, './src/contexts'),
-      // otros alias si los necesitas
+      'utils': path.resolve(__dirname, './src/utils'),
+      'constants': path.resolve(__dirname, './src/constants'),
+      'types': path.resolve(__dirname, './src/types'),
+      'i18n': path.resolve(__dirname, './src/i18n'),
+      // Agrega más alias si los necesitas
     },
   },
   server: {
