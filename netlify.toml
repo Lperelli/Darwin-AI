@@ -1,6 +1,6 @@
 [build]
-  command = "cd DarwinAI-LeadGen && npm install && npm run build"
-  publish = "DarwinAI-LeadGen/dist"
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "18"
@@ -8,4 +8,4 @@
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200 
+  status = 200
